@@ -1,8 +1,17 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
 .barra_superior {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(204,204,204);
+    color: rgb(187,187,187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
 }
 .container {
-    max-height: 960px;
+    max-width: 960px;
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
 }
