@@ -25,10 +25,30 @@ nav a {
     color: rgb(187,187,187);
     text-decoration: none;
 }
+nav a.bnt_destaque{
+    margin-left: 25px;
+}
 .btn_destaque {
     background-color: rgb(255,77,77);
     color: white;
     padding: 12px 40px;
     border-radius: 3px;
-    margin-left: 25px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.sec01 {
+    height: 640px;
+    color: white;
+    background-image: url(../img/Home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec01 p.titulo{
+    font-size: 48px;
+    padding-top: 130px;
+}
+.sec01 p {
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 120%;
 }
